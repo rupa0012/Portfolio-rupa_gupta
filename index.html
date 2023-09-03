@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/784a52af05.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav id="navbar">
+          <!-- <img src="images/image.logo" class="logo" /> -->
+          <ul id="sidemenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="Closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="Openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p1>Welcome to My <span>Profile</span></p1>
+          <h1>I am <span>Rupa Gupta</span><br />From India.</h1>
+          <h2>Software Developer</h2>
+        </div>
+        
+      </div>
+    </div>
+    <!------------------------about------------------------------------------>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src ="images/img6.jpg">
+          </div> 
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I started software development with a lot of enthusiasm and a goal to make useful solutions. 
+              I've spent more than 2 years learning and working hard in this field. 
+              It's been an exciting adventure of writing code and being creative.<br/>
+            </p>
+            <p>
+              I'm thrilled about making software that doesn't just work, but also brings big changes. 
+              I have a set of skills that combines technical expertise, a strong desire to keep learning, and a team-friendly attitude. 
+              This pushes me to discover new things and leave my impact.
+            </p>
+            <p>Thank you for visiting my portfolio. Let's start a journey of creativity and innovation together.</p>
+            <div class="tab-titles">
+              <div class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </div>
+              <div class="tab-links" onclick="opentab('experience')">
+                Experience
+              </div>
+              <div class="tab-links" onclick="opentab('education')">
+                Education
+              </div>
+              <div class="tab-links" onclick="opentab('certificates')">
+                Certificates
+              </div>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Programming Languages</span><br />C#, Python, JavaScript, HTML, CSS</li>
+                <li><span>Software Development</span><br />Application Development, Object-Oriented Programming (OOP), Value Types, Reference Types, Memory Management, Event-Driven Design</li>
+                <li>
+                  <span>Technologies</span><br />.NET Framework, VsCode, Socket Programming, Github, SVN,  LINQ (Language-Integrated Query), Asynchronous Programming, 
+                </li>
+                <li><span>Problem-Solving</span><br/>Diligence, Attention to Detail, Curiosity</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2022-Present</span><br />Software Developer at<br/>Ariston Capital Services</li>
+                <li><span>2019-2020</span><br />Data Analyst Intern at<br/>Dristhi Works</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2020</span><br />M.sc.(computer Science) from Mumbai
+                  University, India
+                </li>
+                <li>
+                  <span>2018</span><br />B.sc.(computer Science) from Mumbai
+                  University, India
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="certificates">
+              <ul>
+                <li><span>2020-From Udemy</span><br />Python Core and Advance Certification</li>
+                <li><span>(07/2022 - 07/2025)</span><br />NISM-series-VIII Equity Derivative Certificate</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------------------services------------------------------------------- -->
+    <!-- <div id="projects">
+      <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="projects-list">
+          <div>
+            <h2>space-Invader</h2>
+            <p>using JavaScript</p>
+            <a href="https://rupa0012.github.io/Space_invader/">Click to see</a>
+          </div>
+          <div>
+            <h2>Instagram clone</h2>
+            <p>using python and django</p>
+            <a href="#">Project link</a>
+          </div>
+          <div>
+            <h2>Portfolio-templates</h2>
+            <p>using python django</p>
+            <a href="#">Project link</a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    
+    
+    <!----------------------------------------- Project------------------------------------------- -->
+    <div id = "projects">
+      <div class="container">
+        <h1 class="subtitle">Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/space-invader.png" >
+            <div class="layer">
+              <h3>Space-Invader</h3>
+              <p>created a Space-Invader game by using JavaScript, html, css and php</p>
+              <a href="https://rupa0012.github.io/Space_invader/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="" >
+            <div class="layer">
+              <h3>Space-Invader</h3>
+              <p>created a Space-Invader game by using JavaScript, html, css and php</p>
+              <a href="https://rupa0012.github.io/Space_invader/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="" >
+            <div class="layer">
+              <h3>Space-Invader</h3>
+              <p>created a Space-Invader game by using JavaScript, html, css and php</p>
+              <a href="https://rupa0012.github.io/Space_invader/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+
+    </div>
+
+    <!-- -------------------------------------------Contact-------------------------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <ul>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:rupagupta0904@gmail.com">rupagupta0904@gmail.com</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i>
+                <a href="tel:+917666299449">Call Me</a>
+              </li>
+              <li>
+                <i class="fa-brands fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/rupa-gupta-8806b716b"
+                  >LinkedIn</a>
+              </li>
+              <li>
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/rupa0012">Github</a>
+              </li>
+              <li>
+                <a href="images/Rupa Gupta.pdf" download class="btn btn2">Download CV</a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-right">
+            <form action="mail.php" method="post">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="text"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                rows="3"
+                placeholder="Your Email"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabContent of tabcontents) {
+          tabContent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+
+        var Sidemenu= document.getElementById("sidemenu");
+
+        function Openmenu(){
+            Sidemenu.style.right ="0";
+        }
+        function Closemenu(){
+            Sidemenu.style.right ="-200px";
+        }
+    </script>
+
+    <script>
+      var navbar = document.getElementById("navbar");
+      var menu = document.getElementById("sidemenu")
+
+      window.onscroll = function(){
+        if(window.pageYOffset >= menu.offsetTop){
+          navbar.classList.add("sticky");
+        }
+        else{
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>
